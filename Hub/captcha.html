@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr" >
+<head>
+ <meta charset="UTF-8">
+ <link rel="stylesheet" type="text/css" href="captcha.css">
+ <link rel="icon" type="image/png" sizes="100x100" href="logohub.jpg">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="../index.html" target="_self">
+        <img src="logohub.jpg" width="100" height="100" style="border-radius: 30px"></a>
+        <!--La bubulle du menu-->   
+
+<input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon"/>
+<label for="menu-icon"></label>
+<nav class="nav"> 		
+    <ul class="pt-5">
+        <li><a href="#">Hein?</a></li>
+        <li><a href="captcha.html">Captcha</a></li>
+        <li><a href="Log.html">Se connecter/S'inscrire</a></li>
+        <li><a href="#">Catre</a></li>
+    </ul>
+</nav>
+
+
+<!--Fin de la bubulle du menu-->
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    
+ <div class="center">
+ <h1 id="captchaHeading">Captcha </h1>
+ <div id="captchaBackground">
+ <canvas id="captcha">captcha text</canvas>
+ <input id="textBox" type="text" name="text">
+ <div id="buttons">
+ <input id="submitButton" type="submit">
+ <button id="refreshButton" type="submit">Refresh</button>
+ </div>
+ <span id="output"></span>
+ </div>
+ </div>
+ <script src="captcha.js"></script>
+</body>
+</html>
